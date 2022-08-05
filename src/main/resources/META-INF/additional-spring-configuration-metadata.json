@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "health-check.url",
+    "type": "java.lang.String",
+    "description": "A description for 'health-check.url'"
+  },
+  {
+    "name": "health-check.request-interval",
+    "type": "java.lang.Integer",
+    "description": "A description for 'health-check.request-interval'"
+  },
+  {
+    "name": "health-check.fail-threshold",
+    "type": "java.lang.Integer",
+    "description": "A description for 'health-check.fail-threshold'"
+  },
+  {
+    "name": "telegram.url",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.url'"
+  },
+  {
+    "name": "telegram.token",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.token'"
+  },
+  {
+    "name": "telegram.chatId",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.chatId'"
+  },
+  {
+    "name": "telegram.message-template",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.message-template'"
+  },
+  {
+    "name": "health-check.message-sent-duration",
+    "type": "java.lang.Double",
+    "description": "A description for 'health-check.message-sent-duration'"
+  }
+]}

@@ -1,0 +1,11 @@
+health-check:
+  url: http://192.168.1.109:9088/live/health-check1
+  request-interval: 600000 # 10mins 
+  fail-threshold: 3
+  message-sent-duration: 10800000 # 10800000 = 3hrs
+
+telegram:
+  url: https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s
+  token: 5424602472:AAEM8sJu19ROASphFJlxyMe3GF35js-7a1g
+  chatId: 1945394605
+  message-template: '%s FAILURE'
