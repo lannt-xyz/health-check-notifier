@@ -11,7 +11,7 @@ USER gradle
 RUN gradle clean build
 
 ### STAGE 2: Production Environment ###
-FROM arm64v8/openjdk:8u262-jdk
+FROM arm64v8/openjdk:8u342-jdk-oracle
 
 WORKDIR /usr/app
 
