@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  health-check-notifier:
+    image: lanntxyz/health-check-notifier:latest
+    container_name: health-check-notifier
+    environment:
+      - SPRING_CONFIG_LOCATION='/usr/app/application.yml'
+    volumes:
+      - ./conf/application.yml:/usr/app/application.yml
+    command: ["java", "-jar", "/usr/app/health-check-notifier-0.0.1-SNAPSHOT.jar", "--spring.config.location=/usr/app/application.yml"]
